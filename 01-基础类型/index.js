@@ -1,3 +1,4 @@
+"use strict";
 // 布尔值
 var isDone = false;
 // 数字

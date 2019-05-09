@@ -1,3 +1,4 @@
+"use strict";
 // npm install -g typescript
 // tsc greeter.ts
 // 例1
