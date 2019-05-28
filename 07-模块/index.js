@@ -4,6 +4,7 @@
 // 模块使用模块加载器去导入其它的模块。
 // 在运行时，模块加载器的作用是在执行此模块代码前去查找并执行这个模块的所有依赖。
 // 大家最熟知的JavaScript模块加载器是服务于Node.js的 CommonJS和服务于Web应用的Require.js。
+// TypeScript里。任何包含顶级import或者export的文件都被当成一个模块。
 // TypeScript里，如果一个文件不带有顶级的import或者export声明，那么它的内容被视为全局可见的。
 function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
@@ -38,6 +39,9 @@ var export_5 = require("./export");
 var imp2 = export_5.export_2;
 var obj = require("./export");
 var imp3 = obj.export_2;
+// 具有副作用的导入
+require("./my-module");
+console.log(imp2);
 // export =  和 import = require()
 // CommonJS和AMD的环境里都有一个exports变量，这个变量包含了一个模块的所有导出内容。
 // 若使用export =导出一个模块，则必须使用TypeScript的特定语法import module = require("module")来导入此模块。
