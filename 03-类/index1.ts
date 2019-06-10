@@ -1,6 +1,6 @@
 // public 公共 （默认）
 // private 私有 (只能自己使用, 子类和实例不可使用)
-// protected 受保护 (只能自己或子类使用，例不可使用)
+// protected 受保护 (只能自己或子类使用，实例不可使用)
 // readonly 只读修饰
 class Man {
   name: string;
@@ -130,9 +130,10 @@ class Octopus1 {
 
 
 
-// static 静态属性
+// static 静态
 // 类具有 实例部分与 静态部分这两个部分
 // 静态属性不用实例化即可访问。
+// 静态方法只能访问静态属性。
 class Grid {
   static origin = {x: 0, y: 0};
   constructor (public scale: number) { }
