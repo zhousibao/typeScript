@@ -50,6 +50,15 @@ let p1: Point = { x: 10, y: 20 };
 // 做为变量使用的话用 const，若做为属性则使用readonly。
 
 
+interface LabelledValue {
+  like: ReadonlyArray<number>; // 确保数组创建后再也不能被修改。
+}
+let ra:LabelledValue = {'like': [1,2,3]}
+// ra.like.length = 5 // 报错了
+// ra.like[0] = 5 // 报错了
+
+
+
 // 额外的属性检查
 interface SquareConfig1 {
   color?: string;
