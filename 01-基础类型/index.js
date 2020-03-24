@@ -1,4 +1,3 @@
-"use strict";
 // 布尔值
 var isDone = false;
 // 数字
@@ -21,11 +20,6 @@ var Color;
     Color[Color["Green"] = 1] = "Green";
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
-// (function (Color) {
-//   Color[Color["Red"] = 0] = "Red";
-//   Color[Color["Green"] = 1] = "Green";
-//   Color[Color["Blue"] = 2] = "Blue";
-// })(Color || (Color = {}));
 var c = Color.Green;
 var colorName = Color[2];
 console.log(c); // 显示1,因为Color.Green = 1

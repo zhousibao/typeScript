@@ -13,19 +13,13 @@ let sentence: string = `Hello, my name is ${ name }.`
 let list: number[] = [1,2,3]
 let list1: Array<number> = [1,2,3]
 let list2: Array<string> = ['1','2','3']
-let list3: Array<any> = [1,2,'3']
+let list3: Array<any> = [1,2,'3'] 
 
 // 元组Tuple: 表示一个已知元素数量和类型的数组
 let x: [string, number] = ['hello', 10]; // 且顺序一一对应
 
-
 // 枚举: enum类型是对JavaScript标准数据类型的一个补充。
 enum Color {Red, Green, Blue}
-// (function (Color) {
-//   Color[Color["Red"] = 0] = "Red";
-//   Color[Color["Green"] = 1] = "Green";
-//   Color[Color["Blue"] = 2] = "Blue";
-// })(Color || (Color = {}));
 let c: Color = Color.Green;
 let colorName: string = Color[2];
 console.log(c);  // 显示1,因为Color.Green = 1
