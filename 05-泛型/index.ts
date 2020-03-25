@@ -52,3 +52,13 @@ function logging<T extends Lengthwise>(arg: T): T {
   return arg;
 }
 // 泛型有了约束之后就不再使用任何类型
+
+
+function getProperty<T, K extends keyof T>(obj: T, key: K) {
+  return obj[key];
+}
+
+let xx = { a: 1, b: 2, c: 3, d: 4 };
+
+getProperty(xx, "a"); // okay
+// getProperty(xx, "m"); // error
