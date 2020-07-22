@@ -1,13 +1,12 @@
 // 布尔值
 let isDone: boolean = false
 
-// 数字
-// 和JavaScript一样，TypeScript里的所有数字都是浮点数。
+// 数字 : JavaScript一样，TypeScript里的所有数字都是浮点数。
 let decLi: number = 6
 
 // 字符串
-let fullname: string = 'bob'
-let sentence: string = `Hello, my name is ${ name }.`
+let name: string = 'bob'
+let sentence: string = `Hello, my name is ${ name }`
 
 // 数组
 let list: number[] = [1,2,3]
@@ -30,6 +29,7 @@ console.log(colorName);  // 显示'Blue',因为上面代码里它的值是2
 let notSure: any = 4;
 notSure = "maybe a string instead"
 notSure = false
+notSure
 
 // Void 某种程度上来说，void类型像是与any类型相反，它表示没有任何类型。 当一个函数没有返回值时，你通常会见到其返回值类型是 void
 function warnUser(): void {
@@ -39,7 +39,7 @@ function warnUser(): void {
 let unusable: void = undefined
 
 // Null 和 Undefined 
-// undefined和null两者各自有自己的类型分别叫做undefined和null。
+// undefined 和null 两者各自有自己的类型分别叫做undefined和null。
 let u: undefined = undefined;
 let n: null = null;
 // 在 --strictNullChecks = false （不严格null模式） 的情况下null和undefined是所有类型的子类型。 就是说你可以把 null和undefined赋值给number类型的变量。即：let num: number = u
@@ -53,7 +53,6 @@ function error(message: string): never {
 }
 
 
-
 // Object
 // object表示非原始类型，也就是除number，string，boolean，symbol，null或undefined之外的类型。
 declare function create(o: object | null): void;
@@ -65,3 +64,12 @@ let someValue: any = "this is a string";
 let strLength: number = (<string>someValue).length;
 // as语法
 let strLength1: number = (someValue as string).length;
+
+
+
+// 联合类型
+let someval: number | string | boolean = 1
+someval = 'smoeval'
+
+// 存在 export 会认为模块文件，否者是全局定义
+export {};

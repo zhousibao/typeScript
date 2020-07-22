@@ -5,7 +5,8 @@ var isDone = false;
 var decLi = 6;
 // 字符串
 var fullname = 'bob';
-var sentence = "Hello, my name is " + name + ".";
+var sentence = "Hello, my name is " + fullname + ".";
+console.log(sentence);
 // 数组
 var list = [1, 2, 3];
 var list1 = [1, 2, 3];
