@@ -54,6 +54,7 @@ class Eee extends Personson {
     return `Hello, my name is ${this.name} and I work in ${this.department}.`;
   }
 }
+
 let howard = new Eee("Howard", "Sales");
 console.log(howard.getElevatorPitch());
 

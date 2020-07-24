@@ -16,6 +16,10 @@ greeterA.greet()
 //继承1
 // 基类、超类
 class Animal {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
   move(distanceInMeters: number = 0) {
       console.log(`Animal moved ${distanceInMeters}m.`);
   }
@@ -26,7 +30,9 @@ class Dog extends Animal {
     console.log('woof! woof!');
   }
 }
-const dog = new Dog();
+const dog = new Dog('nihao');
+console.log(dog.name)
+
 dog.brak();
 dog.move(10);
 dog.brak();

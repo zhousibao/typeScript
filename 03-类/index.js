@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -27,7 +26,8 @@ greeterA.greet();
 //继承1
 // 基类、超类
 var Animal = /** @class */ (function () {
-    function Animal() {
+    function Animal(name) {
+        this.name = name;
     }
     Animal.prototype.move = function (distanceInMeters) {
         if (distanceInMeters === void 0) { distanceInMeters = 0; }
@@ -46,7 +46,8 @@ var Dog = /** @class */ (function (_super) {
     };
     return Dog;
 }(Animal));
-var dog = new Dog();
+var dog = new Dog('nihoa');
+console.log(dog.name);
 dog.brak();
 dog.move(10);
 dog.brak();
