@@ -71,5 +71,15 @@ let strLength1: number = (someValue as string).length;
 let someval: number | string | boolean = 1
 someval = 'smoeval'
 
+
+// 其他类型
+function test (){
+  console.log(arguments)
+  let arg:IArguments = arguments
+  let htmlCollection: HTMLCollection
+  let nodeList: NodeList
+}
+
+
 // 存在 export 会认为模块文件，否者是全局定义
 export {};

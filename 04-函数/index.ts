@@ -4,7 +4,7 @@ function myAdd(x: number, y: number): number {
   return x + y;
 }
 // 匿名函数
-let myAdd1 = function(x: number, y: number): number { return x + y; };
+let myAdd1 = function(x: number, y: number): number { return x + y; }
 
 // 完整函数类型
 // 函数类型包含两部分：参数类型和返回值类型。
