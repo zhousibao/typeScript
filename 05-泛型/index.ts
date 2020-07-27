@@ -62,3 +62,26 @@ let xx = { a: 1, b: 2, c: 3, d: 4 };
 
 getProperty(xx, "a"); // okay
 // getProperty(xx, "m"); // error
+
+
+
+
+// 范型类
+class Queue <T> {
+  private list:T[] = [];
+  push(item:T){
+    this.list.push(item)
+  }
+  shift(): T | undefined {
+    return this.list.shift()
+  }
+}
+
+const queue = new Queue<number>()
+queue.push(1)
+console.log(queue.shift()?.toFixed())
+
+
+const queue1= new Queue<string>()
+queue1.push('name')
+console.log(queue1.shift()?.length)
