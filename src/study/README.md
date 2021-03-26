@@ -28,3 +28,7 @@
 - [MyExclude](https://github.com/zhousibao/typeScript/blob/master/src/study/MyExclude.ts)
 
   > 实现内置的 Exclude<T，U>
+
+- [If](https://github.com/zhousibao/typeScript/blob/master/src/study/If.ts)
+
+  > 实现一个 If 范型
