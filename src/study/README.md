@@ -24,3 +24,7 @@
 - [Length](https://github.com/zhousibao/typeScript/blob/master/src/study/Length.ts)
 
   > 获取元组的长度
+
+- [MyExclude](https://github.com/zhousibao/typeScript/blob/master/src/study/MyExclude.ts)
+
+  > 实现内置的 Exclude<T，U>
