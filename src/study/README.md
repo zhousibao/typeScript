@@ -20,3 +20,7 @@
 - [Frist](https://github.com/zhousibao/typeScript/blob/master/src/study/First.ts)
 
   > 获取数组的第一个元素
+
+- [Length](https://github.com/zhousibao/typeScript/blob/master/src/study/Length.ts)
+
+  > 获取元组的长度
