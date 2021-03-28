@@ -36,3 +36,7 @@
 - [Concat](https://github.com/zhousibao/typeScript/blob/master/src/study/Concat.ts)
 
   > 实现一个 Concat<T, K> 范型
+
+- [Includes](https://github.com/zhousibao/typeScript/blob/master/src/study/Includes.ts)
+
+  > 实现一个 Includes<T, K>范型
