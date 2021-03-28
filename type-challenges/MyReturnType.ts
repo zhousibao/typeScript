@@ -12,4 +12,6 @@ const fn = (v: boolean) => {
     return 2
 }
 
+// typeof 获取实例的类型
+// type b = typeof fn
 type a = MyReturnType<typeof fn> // 应推导出 "1 | 2"
