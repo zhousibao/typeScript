@@ -32,3 +32,7 @@
 - [If](https://github.com/zhousibao/typeScript/blob/master/src/study/If.ts)
 
   > 实现一个 If 范型
+
+- [Concat](https://github.com/zhousibao/typeScript/blob/master/src/study/Concat.ts)
+
+  > 实现一个 Concat<T, K> 范型
