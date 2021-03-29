@@ -46,3 +46,7 @@
 - [MyReturnType](https://github.com/zhousibao/typeScript/blob/master/type-challenges/MyReturnType.ts)
 
   > 获取函数返回类型 ReturnType<T>
+
+- [MyOmit](https://github.com/zhousibao/typeScript/blob/master/type-challenges/MyOmit.ts)
+
+  > 实现内置 Omit<T, K>
