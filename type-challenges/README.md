@@ -50,3 +50,7 @@
 - [MyOmit](https://github.com/zhousibao/typeScript/blob/master/type-challenges/MyOmit.ts)
 
   > 实现内置 Omit<T, K>
+
+- [MyReadonly2](https://github.com/zhousibao/typeScript/blob/master/type-challenges/MyReadonly2.ts)
+
+  > 实现 MyReadonly2<T, K>
