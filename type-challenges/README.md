@@ -54,3 +54,7 @@
 - [MyReadonly2](https://github.com/zhousibao/typeScript/blob/master/type-challenges/MyReadonly2.ts)
 
   > 实现 MyReadonly2<T, K>
+
+- [DeepReadonly](https://github.com/zhousibao/typeScript/blob/master/type-challenges/DeepReadonly.ts)
+
+  > 实现 DeepReadonly<T, K>
