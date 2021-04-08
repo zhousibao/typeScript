@@ -58,3 +58,7 @@
 - [DeepReadonly](https://github.com/zhousibao/typeScript/blob/master/type-challenges/DeepReadonly.ts)
 
   > 实现 DeepReadonly<T, K>
+
+- [TupleToUnion](https://github.com/zhousibao/typeScript/blob/master/type-challenges/TupleToUnion.ts)
+
+  > 实现泛型 TupleToUnion<T>，它覆盖元组的值与其值联合
